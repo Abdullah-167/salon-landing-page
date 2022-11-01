@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&family=Poppins:wght@300&family=Raleway&family=Ubuntu:wght@300&family=Volkhov&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+
+  font-family: "Poppins", sans-serif;
+
+  font-family: "Raleway", sans-serif;
+
+  font-family: "Ubuntu", sans-serif;
+
+  font-family: "Volkhov", serif;
+}
+.bg_img {
+  background-image: url(black\ back\ ground.png);
+}
+
+.navbar {
+  padding: 10px;
+}
+.navbar > a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 15px;
+  padding: 30px;
+}
+.navbar_flex {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1170px;
+  margin: auto;
+}
